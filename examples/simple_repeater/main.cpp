@@ -117,4 +117,5 @@ void loop() {
   ui_task.loop();
 #endif
   rtc_clock.tick();
+  delay(2);
 }
