@@ -136,6 +136,8 @@ void loop() {
     } else {
       nextSleepinSecs += 5; // When there is pending work, to work another 5s
     }
+  } else {
+    delay(2);
   }
   delay(2);
 }
